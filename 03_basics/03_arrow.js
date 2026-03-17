@@ -39,10 +39,10 @@ const chai = () => {
 // Implicit Return
 // const addtwo = (num1, num2) => num1 + num2
 
-// const addtwo = (num1, num2) => (num1 + num2) //If written inside curly brackets then there's no need to write return
+const addtwo = (num1, num2) => (num1 + num2) //If written inside brackets then there's no need to write return
 // console.log(addtwo(3,4))
 
-const addtwo = (num1, num2) => ({username: "nikhil"})
+// const addtwo = (num1, num2) => ({username: "nikhil"})
 // console.log(addtwo())
 
 
@@ -57,7 +57,7 @@ const myArr = [1, 3, 7, 9]
 // }
 
 const greetings = (name) => {
-    console.log(`${name}`, "we welcome you.")
+    // console.log(`${name}`, "we welcome you.")
 
 }
 
@@ -67,4 +67,4 @@ let calculateSquare = (num) => {
   return Math.pow(num);
 }
 
-console.log(calculateSquare(5))
+// console.log(calculateSquare())
